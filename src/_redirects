@@ -1,0 +1,11 @@
+# Old Wix URLs -> new pages (Cloudflare Pages / Netlify format)
+/coaching                       /#paths            301
+/coaching-clinic                /leagues/          301
+/bootcamps                      /leagues/#bootcamps 301
+/individual-coaching            /skaters/          301
+/consulting                     /juniors/          301
+/coaching-for-coaches           /coaches/          301
+/copy-of-coaching-the-coaches   /neurodivergence/  301
+/about-me                       /about/            301
+/testimonials                   /reviews/          301
+/upcoming-events                /contact/#calendar 301

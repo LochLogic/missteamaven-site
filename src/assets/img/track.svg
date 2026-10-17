@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" fill="none" stroke="#fff" stroke-width="3">
+  <!-- flat-track outline: outer boundary, inner boundary, pivot and jammer lines -->
+  <path d="M270 40h460a240 240 0 0 1 0 480H270a240 240 0 0 1 0-480z"/>
+  <path d="M330 170h340a110 110 0 0 1 0 220H330a110 110 0 0 1 0-220z"/>
+  <path d="M500 40v130M440 40v130" stroke-dasharray="10 10"/>
+  <path d="M270 40l40 130" stroke-width="2" opacity=".6"/>
+  <circle cx="330" cy="280" r="6" fill="#fff" stroke="none"/>
+  <circle cx="670" cy="280" r="6" fill="#fff" stroke="none"/>
+</svg>

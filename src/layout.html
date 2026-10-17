@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <link rel="canonical" href="https://www.missteamaven.com{{path}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:image" content="https://www.missteamaven.com/assets/img/{{ogimage}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0b1026">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="/assets/img/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Maven Coaching",
+    "url": "https://www.missteamaven.com",
+    "email": "missteamaven@gmail.com",
+    "description": "Roller derby coaching for leagues, skaters, juniors and coaches from elite athlete Miss Tea Maven.",
+    "founder": { "@type": "Person", "name": "Miss Tea Maven" },
+    "sameAs": [
+      "https://www.instagram.com/missteamaven/",
+      "https://www.facebook.com/MissTeaMaven/",
+      "https://www.youtube.com/missteamaven"
+    ]
+  }
+  </script>
+</head>
+<body class="{{bodyclass}}">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="wrap header-inner">
+      <a class="brand" href="/" aria-label="Maven Coaching home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="19"/><path d="M20 7.5l3.4 9.1h9.6l-7.8 5.8 3 9.3L20 26l-8.2 5.7 3-9.3-7.8-5.8h9.6z"/></svg></span>
+        <span class="brand-text">Maven<em>Coaching</em></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="sr">Menu</span><span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" data-nav>
+        <ul>
+          <li><a href="/leagues/"{{nav-leagues}}>Leagues</a></li>
+          <li><a href="/skaters/"{{nav-skaters}}>Skaters</a></li>
+          <li><a href="/juniors/"{{nav-juniors}}>Juniors</a></li>
+          <li><a href="/coaches/"{{nav-coaches}}>Coaches</a></li>
+          <li><a href="/about/"{{nav-about}}>About</a></li>
+          <li><a href="/reviews/"{{nav-reviews}}>Reviews</a></li>
+        </ul>
+        <a class="btn btn-hot btn-sm" href="/contact/">Free intake chat</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+{{content}}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="/">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="19"/><path d="M20 7.5l3.4 9.1h9.6l-7.8 5.8 3 9.3L20 26l-8.2 5.7 3-9.3-7.8-5.8h9.6z"/></svg></span>
+          <span class="brand-text">Maven<em>Coaching</em></span>
+        </a>
+        <p>Decode your play. Level up your derby.</p>
+        <a class="footer-email" href="mailto:missteamaven@gmail.com">missteamaven@gmail.com</a>
+      </div>
+      <div>
+        <h2 class="footer-h">Coaching</h2>
+        <ul>
+          <li><a href="/leagues/">Leagues &amp; bootcamps</a></li>
+          <li><a href="/skaters/">Individual skaters</a></li>
+          <li><a href="/juniors/">Juniors</a></li>
+          <li><a href="/coaches/">Coaching the coaches</a></li>
+          <li><a href="/neurodivergence/">Neurodivergence training</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-h">Maven</h2>
+        <ul>
+          <li><a href="/about/">About &amp; record</a></li>
+          <li><a href="/reviews/">Reviews</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/contact/#calendar">Calendar</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-h">Follow</h2>
+        <ul class="social">
+          <li><a href="https://www.instagram.com/missteamaven/" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/MissTeaMaven/" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.youtube.com/missteamaven" rel="noopener">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-base">
+      <span>&copy; {{year}} Maven Coaching</span>
+      <span>Roller derby coaching, in person and virtual, worldwide.</span>
+    </div>
+  </footer>
+
+  <script src="/assets/js/site.js" defer></script>
+</body>
+</html>
