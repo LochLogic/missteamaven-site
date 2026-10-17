@@ -3,7 +3,7 @@
 A rebuilt, re-imagined version of [missteamaven.com](https://www.missteamaven.com), currently on Wix.
 This repo is a **preview for feedback**. Nothing here replaces the live site yet.
 
-- Live preview: published by GitHub Pages on every push to `main` (noindex, so it never competes with the real site in search)
+- Live preview: https://lochlogic.github.io/missteamaven-site/ (rebuilt by GitHub Pages on every push to `main`; noindex, so it never competes with the real site in search)
 - What changed and why, plus open questions: [REDESIGN-NOTES.md](REDESIGN-NOTES.md)
 
 ## How it works
